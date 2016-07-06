@@ -1,0 +1,10 @@
+backgound{
+	background: gray;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+}
