@@ -1,5 +1,5 @@
 body {
-	background: rgb(200,200,200);
+	background: #93b874;
 }
 
 .container {
@@ -7,6 +7,13 @@ body {
 	margin: 0 auto;
 	background: white;
 	padding: 40px;
+	padding-left: 100px;
+	padding-right:10px;
+}
+
+hr{
+	width: 91%;
+	margin-left: 0px;
 }
 
 a {
@@ -19,10 +26,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+ol {
+	padding: 0px;
+}
+
 li {
 	font-family: arial,sans-serif;
-	margin-bottom:20px;
-	margin-top: 20px;
+	margin-bottom:40px;
+	margin-top: 10px;
+	width: 80%;
+	font-size: 18px;
 }
 
 h1 {
@@ -49,11 +62,11 @@ h3 {
 	font-style: italic;
 	font-family: arial,sans-serif;
 	color: rgb(100,100,100);
-	width: 80%;
+	width: 90%;
 }
 
 img {
-	width:50%;
+	width:80%;
 }
 
 .line2{
