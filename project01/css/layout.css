@@ -1,0 +1,42 @@
+.container {
+	width: 1020px;
+	margin: 0 auto;
+	background: white;
+	font-family: arial,sans-serif;
+	margin-top: 40px;
+}
+
+h1{
+	text-align: center;
+}
+
+ul{
+	text-align: center;
+	list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color:#3382f8;
+   font-size: 18px;
+}
+
+.subtitle{
+	font-size:24px;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: rgb(150,150,150);
+}
+
+.poem{
+	margin-left: 35%;
+	margin-top:40px;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+
+.poem p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+

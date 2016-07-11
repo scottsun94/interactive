@@ -1,0 +1,12 @@
+.container {
+	width: 1020px;
+	margin: 0 auto;
+	background: white;
+	font-family: arial,sans-serif;
+	margin-top: 40px;
+}
+
+h1{
+	text-align: center;
+	color: rgb(200,200,200);
+}
