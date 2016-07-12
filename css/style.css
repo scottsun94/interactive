@@ -1,0 +1,10 @@
+.container{
+      margin:0 auto;
+      padding:400px;
+      padding-top:50px;
+      font-family: arial,sans-serif;
+    }
+
+.h1{
+	font-weight: 100;
+}

@@ -1,0 +1,147 @@
+body {
+	font-family: "Scope One", serif;
+	margin: 0 px;
+}
+
+h1{
+	width: 1200px;
+	margin:0 auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: relative;
+
+	
+}
+
+.links{
+	font-size: 0;
+	width: 1200px;
+	margin:0 auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: relative;
+	margin-top: 10px;
+
+}
+
+img{
+	position: absolute;
+	top:3px;
+	right: 17%;
+
+	width: 2%;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+
+
+
+div.links a {
+	display:inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 25%;
+	margin: 20px;
+	height: 200px;
+	text-decoration: none;
+	padding: 30px;
+	color:orange;
+	font-size: 24px;
+	margin-left: 0px;
+	margin-top:  0px;
+
+}
+
+p{
+	position: absolute;
+	text-align: right;
+	margin: 0px;
+	right: 15px;
+	bottom: 5px;
+	color: white;
+}
+
+a.a1{
+	background-color: #1f573a;
+}
+a.a1:hover{
+	background-color: #fff9ee;
+	color:#81d1a8;
+}
+
+a.a2{
+	background-color: #2d7c53;
+}
+a.a2:hover{
+	background-color: #ffedcc;
+	color:#81d1a8;
+}
+
+a.a3{
+	background-color: #3fae75;
+}
+a.a3:hover{
+	background-color: #ffe1aa;
+	color:#81d1a8;
+}
+
+a.a4{
+	background-color: #5cc48e;
+}
+a.a4:hover{
+	background-color: #ffd588;
+	color:#81d1a8;
+}
+
+a.a5{
+	background-color: #81d1a8;
+}
+a.a5:hover{
+	background-color: #ffc966;
+	color:#81d1a8;
+}
+
+a.a6{
+	background-color: #a7dfc2;
+}
+a.a6:hover{
+	background-color: #ffbd44;
+	color:#81d1a8;
+}
+
+a.a7{
+	background-color: #b3e4cb;
+}
+a.a7:hover{
+	background-color: #ffb122;
+	color:#81d1a8;
+}
+
+a.a8{
+	background-color: #cceddc;
+}
+a.a8:hover{
+	background-color: #ee9a00;
+	color:#81d1a8;
+}
+
+a.a9{
+	background-color: #e5f6ed;
+}
+a.a9:hover{
+	background-color: #dd8f00;
+	color:#81d1a8;
+}
+
+a.a10{
+	background-color: #f2faf6;
+}
+a.a10:hover{
+	background-color: #aa6e00;
+	color:#81d1a8;
+}
+a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
