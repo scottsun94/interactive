@@ -31,7 +31,23 @@ body{
 	font-family: 'Galada', cursive;
 }
 
-a{
+.nav2{
+	position: absolute;
+	width: 1020px;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 20px;
+	font-family: 'Galada', cursive;
+}
+
+.back1{
+	text-decoration: none;
+	padding-bottom:5px;
+	font-size: 16px;
+	color: rgb(100,100,100);
+	font-family: arial,sans-serif;
+}
+.link a{
 	display: block;
 	background: black;
 	height: 60px;
@@ -57,12 +73,16 @@ h1{
 	text-align: center;
 }
 
-ul{
-	text-align: center;
-	list-style: none;
+.res1{
+	padding-left: 220px;
+	padding-right: 140px;
+	font-size: 24px;
+	font-family: 'Noto Serif', serif;
+
+	
 }
 
-a:hover{
+.link a:hover{
    background: rgb(50,50,50);
    
 }
@@ -77,10 +97,10 @@ a:hover{
 .poem{
 	margin:0 auto;
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	font-style: italic;
 	color: black;
-	font-size:20px;
+	font-size:24px;
 
 	text-align: center;
 
@@ -95,4 +115,3 @@ a:hover{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-
