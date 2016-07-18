@@ -31,7 +31,15 @@ body{
 	font-family: 'Galada', cursive;
 }
 
-a{
+.back1{
+	text-decoration: none;
+	padding-bottom:5px;
+	font-size: 16px;
+	color: rgb(100,100,100);
+	font-family: arial,sans-serif;
+}
+
+.link a{
 	display: block;
 	background: black;
 	height: 60px;
@@ -62,7 +70,7 @@ ul{
 	list-style: none;
 }
 
-a:hover{
+.link a:hover{
    background: rgb(50,50,50);
    
 }

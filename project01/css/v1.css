@@ -10,10 +10,7 @@ body{
 	margin-top: 40px;
 }
 
-h1{
-	text-align: center;
-	color: rgb(200,200,200);
-}
+
 
 .nav{
     position: fixed;
@@ -96,4 +93,12 @@ h1{
 div a{
 	text-decoration: none;
 	color: white;
+}
+
+.nav_left:hover{
+	background-color: rgb(200,200,200);
+}
+
+.nav_right:hover{
+	background-color: rgb(200,200,200);
 }
