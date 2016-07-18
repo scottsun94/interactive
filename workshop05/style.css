@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+}
+
+div{
+	width: 100%;
+	height: 200px;
+}
+
+.t1{
+	background-color: #ED6B5D;
+	
+
+
+}
+
+.t2{
+	background-color: #8BEAD8;
+	
+	
+}
+
+.t3{
+	background-color: #1F7FDD;
+	
+}
+
+.t4{
+	background-color: #ffcb04;
+	
+}
+
+.t5{
+	background-color: #AD1E3C;
+	
+}
+
+.t1_wrap{
+	margin: 0 auto;
+	text-align: center;
+	line-height: 200px;
+}
+
+.img_0{
+	display: inline-block;
+	/*background-image: url(images/0.png);*/
+	/*background-size: 100%;*/
+	width: 10%;
+	padding-top: 10px;
+
+	
+
+}
+
+.img_1{
+	display: inline-block;
+	/*background-image: url(images/1.png);*/
+	/*background-size: 100%;*/
+	width: 12%;
+	padding-top: 10px;
+	
+
+}
+
+.img_2{
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 130px;
+	display: none;
+	
+
+}
+
+.img_3{
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 130px;
+	display: none;
+	
+
+}
+
+.img_4{
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 130px;
+	display: none;
+	
+
+}
+
+.img_5{
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 130px;
+	display: none;
+	
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+	.img_1{display: inline-block;}
+	.img_0{display: inline-block;}
+	.img_2{display: none;}
+	.img_3{display: none;}
+	.img_4{display: none;}
+	.img_5{display: none;}
+	div{height: 150px;}
+
+}
+
+@media screen and (max-width: 768px) {
+	.img_2{display: block;}
+	.img_1{display: none;}
+	.img_0{display: none;}
+	.img_3{display: none;}
+	.img_4{display: none;}
+	.img_5{display: none;}
+}
+
+@media screen and (max-width: 600px) {
+	.img_3{display: block;}
+	.img_1{display: none;}
+	.img_0{display: none;}
+	.img_2{display: none;}
+	.img_4{display: none;}
+	.img_5{display: none;}
+}
+
+@media screen and (max-width: 480px) {
+	.img_4{display: block;}
+	.img_1{display: none;}
+	.img_0{display: none;}
+	.img_2{display: none;}
+	.img_3{display: none;}
+	.img_5{display: none;}
+}
+
+@media screen and (max-width: 320px) {
+	.img_5{display: block;}
+	.img_1{display: none;}
+	.img_0{display: none;}
+	.img_3{display: none;}
+	.img_4{display: none;}
+	.img_2{display: none;}
+}
