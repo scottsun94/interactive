@@ -47,6 +47,11 @@ body{
 	color: rgb(100,100,100);
 	font-family: arial,sans-serif;
 }
+
+.back1:hover{
+	color: rgb(31,153,223);
+}
+
 .link a{
 	display: block;
 	background: black;
