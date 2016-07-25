@@ -5,9 +5,12 @@
 		<style type="text/css">
 			body{
 				background-color: rgb(244,244,241);
+				padding: 0px;
+				margin: 0px;
 			}
 			.container{
-				width: 960px;
+				width: 1000px;
+				margin: 0px;
 			}
 			.topbar{
 				position: fixed;
@@ -19,9 +22,156 @@
 			}
 			.pic1{
 				position: absolute;
-				left: 440px;
+				left: 430px;
 				top: 18px;
 				width: 150px;
+			}
+			.search{
+				position: relative;
+				margin: 0 auto;
+				width: 900px;
+				height: 380px;
+				background-color: white;
+				margin-top: 200px;
+				border-radius: 10px;
+
+			}
+			.search1{
+				position: absolute;
+				width: 850px;
+				height: 120px;
+				top: 20px;
+				left: 20px;
+
+			}
+			.search p{
+				position: absolute;
+				margin: 0px;
+				font-family: arial, sans-serif;
+			}
+			.search1 img{
+				position: absolute;
+			}
+			.p1{
+				top: 0px;
+				left: 25px;
+				color: rgb(241,94,52);
+				font-size: 55px;
+
+			}
+			.p2{
+				top: 0px;
+				left: 535px;
+				color: rgb(241,94,52);
+				font-size: 55px;
+
+			}
+			.p3{
+				top: 75px;
+				left: 25px;
+				border: 1px solid rgb(235,235,235);
+				font-size: 40px;
+				color: rgb(235,235,235);
+				padding: 12px;
+				width: 440px;
+				border-radius: 15px;
+			}
+			.p4{
+				top: 75px;
+				left: 530px;
+				border: 1px solid rgb(235,235,235);
+				font-size: 40px;
+				color: rgb(235,235,235);
+				padding: 12px;
+				border-radius: 15px;
+				width: 270px;
+			}
+
+			.search2{
+				position: absolute;
+				width: 850px;
+				height: 120px;
+				top: 185px;
+				left: 20px;
+				font-size: 50px;
+				color: white;
+
+			}
+
+			.pic2{
+				left: 430px;
+				top: 105px;
+				width: 25px;
+			}
+			.pic3{
+				left: 780px;
+				top: 105px;
+				width: 25px;
+			}
+
+			p.a1{
+				
+				left: 60px;
+				top: 40px;
+			}
+
+			p.a2{
+				left: 260px;
+				top: 40px;
+			}
+
+			p.a3{
+				left: 750px;
+				top: 40px;
+			}
+
+			.recipes{
+				margin-top: 40px;
+				background-color: white;
+				width: 100%;
+			}
+			.recipes div{
+				display: inline-block;
+				position: relative;
+				margin-left: 25px;
+				margin-top: 25px;
+				width: 450px;
+				height: 450px;
+				border: 1px solid black;
+			}
+
+			.recipes img{
+				width: 100%;
+				
+			}
+			.recipes p{
+				position: absolute;
+				margin: 0px;
+				font-family: arial,sans-serif;
+			}
+			.c1{
+				top:295px;
+				left: 25px;
+				font-size: 37px;
+				font-weight: 600;
+				color: rgb(50,50,50);
+				width: 430px;
+
+			}
+			.c2{
+				top:345px;
+				left: 25px;
+				font-size: 30px;
+				font-weight: 100;
+				color: rgb(170,170,170);
+				width: 430px;
+			}
+			.c3{
+				top:390px;
+				left: 25px;
+				font-size: 30px;
+				color: rgb(100,100,100);
+				width: 430px;
 			}
 		</style>
 	</head>
@@ -33,21 +183,63 @@
 
 			<div class="search">
 				<div class="search1">
-					<p>Types of food:</p>
-					<p>Time:</p>
-					<p>Sichuan Food</p>
-					<p>20 - 40 min</p>
-					<img src="images/04.png">
-					<img src="images/04.png">
+					<p class="p1">Types of food:</p>
+					<p class="p2">Time:</p>
+					<p class="p3">Sichuan Food</p>
+					<p class="p4">20 - 40 min</p>
+					<img src="images/04.png" class="pic2">
+					<img src="images/04.png" class="pic3">
 				</div>
 				<div class="search2">
-					<a href="second.html"><img class="a0" src="images/05.png" style="width:720px;"></a>
+					<img class="a0" src="images/05.png" style="width:848px;">
 				
 					<p class="a1">-</p>
 					<p class="a2">Happy Cooking</p>
 					<p class="a3">+</p>
 				</div>
 			</div>
+
+			<div class="recipes">
+				<div class="col_1">
+					<img src="images/06.png">
+					<p class="c1">Spicy Fried Dumplings</p>
+					<p class="c2">Sichuan Food</p>
+					<p class="c3">15 minutes</p>
+				</div>
+				<div>
+					<img src="images/07.png">
+					<p class="c1">Xiao Long Bao</p>
+					<p class="c2">Shanghai Food</p>
+					<p class="c3">15 minutes</p>
+				</div>
+				
+				<div>
+					<img src="images/08.png">
+					<p class="c1">Bok choy with light sauces</p>
+					<p class="c3">15 minutes</p>
+				</div>
+
+				<div>
+					<img src="images/09.png">
+					<p class="c1">Special Sichuan dumplings with spicy...</p>
+					<p class="c3">50 minutes</p>
+				</div>
+
+				<div>
+					<img src="images/07.png">
+					<p class="c1">Xiao Long Bao</p>
+					<p class="c2">Shanghai Food</p>
+					<p class="c3">15 minutes</p>
+				</div>
+
+				<div>
+					<img src="images/08.png">
+					<p class="c1">Bok choy with light sauces</p>
+					<p class="c3">15 minutes</p>
+				</div>
+
+			</div>
+
 		</div>
 	</body>
 </html>
